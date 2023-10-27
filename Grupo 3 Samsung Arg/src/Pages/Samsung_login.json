@@ -1,0 +1,25 @@
+{"email":{
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//input[@placeholder='E-mail']"
+},
+
+"password":{
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//input[@placeholder='Contraseña']"
+},
+
+"entrar":{
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[@class='vtex-button__label flex items-center justify-center h-100 ph5 '][contains(.,'Entrar')]"
+},
+
+"usrValidacion":{
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[normalize-space()='Entre con un e-mail válido']"
+},
+
+"pwdValidacion":{
+    "GetFieldBy": "xpath",
+    "ValueToFind": "//div[contains(text(),'Usuario y/o contraseña equivocada')]"
+}
+}
